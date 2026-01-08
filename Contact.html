@@ -5,57 +5,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riya's Bakery Contact</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-
-    <fieldset>
-        <section><h3>Riya's Bakery</h3></section>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About </a></li>
-                <li> <a href="menu.html">Menu</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+<body class="contact">
+<div class="box">
+    <header class="head">
+                <!--left box for logo-->
+                <div class="left">
+                    <img src="images/logo1.avif" alt="logo">
+                     <div class="logoname"><b>Riya's Bakery</b></div>
+                </div>
+               
+       <!--mid box for navbar-->
+            <div class="center">
+                <nav>
+                <ul class="navbar">
+                    <li><a href="index.html"><b>Home</b></a></li>
+                    <li><a href="about.html"><b>About</b> </a></li>
+                    <li> <a href="menu.html"><b>Menu</b></a></li>
+                    <li><a href="contact.html" class="active"><b>Contact Us</b> </a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--right box for search-->
+        <div class="right">
+           <form>
+            <input type="search" id="search" name="search" placeholder="search bakery items..">
+           </form>
+        </div>
+        </header class=head>
+        <div class="midhead">
+            
+        </div>
+        <main class="mainbody">
         <h1>Contact Us</h1>
 
         <p>
         Have a question or want to order something special? Fill out the form below and we’ll respond soon!
         </p>
-        <form method="post">
+        <form method="post" class="form2">
+            <div class="fillup">
             <label for="name"><b>Full Name:</b></label>
-            <input type="text" name="username" id="username"> <br><br>
+            <input type="text" name="username" id="username"> 
             <label for="subject"><b>Subject:</b></label>
-            <input type="text" name="subject" id="subject"><br><br>
+            <input type="text" name="subject" id="subject">
             <label for="email"><b>Email:</b></label>
-            <input type="email" name="email" id="email"><br><br>
+            <input type="email" name="email" id="email">
             <label for="message"><b> Message Section:</b></label>
-            <textarea name="message" id="message" rows="2" ></textarea><br><br>
+            <textarea name="message" id="message" rows="2" ></textarea>
+            </div>
+            
             <input type="submit" value="submit">
+           
              </form>
    
         <br>
         <br>
-        <img src="images/contact1.png" alt="random" height="200">
-        <img src="images/packed.png" alt="random" height="200">
-        <img src="images/services.png" alt="random" height="200">
-        <p>Our Address:Bharatpur-12,Munal-chowk,Chitwan</p>
-        <label for="phone">Phone:</label>
-        <a href="tel:9817247001">9817247001</a><br><br>
-        <label for="email">Email:</label>
+        <div class="image">
+        <img src="images/contact1.png" alt="random">
+        <img src="images/packed.png" alt="random">
+        <img src="images/services.png" alt="random">
+        </div>
+        </main>
+        
+        <footer>
+            <div class="info">
+        <label for="address">Our Address:Bharatpur-12,Munal Chowk, Chitwan</label>
+         <p>Business Hour:Sun-Sat, 8am-9pm</p>
+        <label for="phone">Phone 📞:9817247001</label> <br> <br>
+       
+        <label for="email">Email 📧:</label>
         <a href="mailto:riya'sbakery2035@gmal.com">riya'sbakery2035@gmail.com</a>
- <p>Business Hour:Sun-Sat, 8am-9pm</p>
+
 <p>
-    Follow Us on Instagram: <a href="https://www.instagram.com/anu_s_bakery/">https://www.instagram.com/anu_s_bakery/</a>
+    Follow Us on Instagram : <a href="https://www.instagram.com/anu_s_bakery/">https://www.instagram.com/anu_s_bakery/</a>
 
 </p>
 <p>
     Follow Us on Facebook: <a href="https://www.facebook.com/100047784716826/?locale=en_GB">https://www.facebook.com/100047784716826/?locale=en_GB</a>
-</p>
-            
-    </fieldset>
+</p>  
+   </footer>
+   </div>
+   </div>
 </body>
 
 </html>

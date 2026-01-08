@@ -1,74 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riya's Bakery</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <fieldset>
-    <h3>Riya's Bakery</h3>
-    <nav>
-        <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-    </nav>
-    <h1>Menu</h1>
-<h4>Cakes</h4>
-<ul>
-    <li>Chocolate Truffle Cake</li>
-   <p>Rich chocolate cake with creamy filling and smooth chocolate topping.</p> 
-</ul>
-<ul>
-<li>Vanilla Buttercream Cake</li>
-<p>Soft vanilla cake with butter frosting.</p>
-</ul>
-<ul>
-    <li>Red Velvet Cake</li>
-    <p>Moist red cake with cream cheese frosting.</p>
-</ul>
-<img src="images/chocolatecake.jpg" alt="chocolatecake" height="200">
-<img src="images/vanilla.avif" alt="vanillacake" height="200" >
-<img src="images/redvelvet.avif" alt="redvelvetcake" height="200">
-<br>
-<h4>Breads</h4>
-<ul>
-    <li>Multigrain Bread</li>
-   <p>Healthy bread made with many grains,great for sandwiches.</p> 
-</ul>
-<ul>
-<li>Sourdough Loaf</li>
-<p>Crunchy crust bread with a tangy taste.</p>
-</ul>
-<ul>
-    <li>Baguette</li>
-    <p>Long thin French bread, cruchy on the outside and soft inside.</p>
-</ul>
-<img src="images/multigrsin.avif" alt="multigrainbread" height="200">
-<img src="images/sourdought.avif" alt="sourdough" height="200" >
-<img src="images/baguette.avif" alt="baguette" height="200">
-<br>
+<body class="menu">
+<div class="box">
+    <header class="head">
+        <!--left box for logo-->
+        <div class="left">
+            <img src="images/logo1.avif" alt="logo">
+            <div class="logoname"><b>Riya's Bakery</b></div>
+        </div>
 
-<h4>Cookies and Pastries</h4>
-<ul>
-    <li>Buttery Shortbread Cookies</li>
-   <p>Crispy cookies made with lots of butter and vanilla.</p> 
-</ul>
-<ul>
-<li>Croissanta</li>
-<p>Flaky, buttery rolls, perfect for breakfast.</p>
-</ul>
-<ul>
-    <li>Fruit Danishes</li>
-    <p>Sweet pastry filled with fruit jam.</p>
-</ul>
-<img src="images/shortbreadcookies.avif" alt="shortbread" height="200">
-<img src="images/crossiants.avif" alt="crossiants" height="200" >
-<img src="images/fruitdanishes1.webp" alt="danishes" height="200">
-</fieldset>
+        <!--mid box for navbar-->
+        <div class="center">
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html"><b>Home</b></a></li>
+                    <li><a href="about.html"><b>About</b> </a></li>
+                    <li> <a href="menu.html" class="active"><b>Menu</b></a></li>
+                    <li><a href="contact.html"><b>Contact Us</b> </a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--right box for search-->
+        <div class="right">
+            <form>
+                <input type="search" id="search" name="search" placeholder="search bakery items..">
+            </form>
+        </div>
+    </header>
+    <div class="midhead">
+            
+        </div>
+    <main>
+        <div class="container">
+            <h1>Menu</h1>
+
+            <h3>Cakes</h3>
+            <div id="cakes">
+                <div class="items">
+                    <ul>
+                        <li>Chocolate Truffle Cake</li><label for="price"><b>$4</b></label>
+                        <div class="image">
+                            <img src="images/chocolatecake.jpg" alt="chocolatecake" height="200">
+                        </div>
+                        <p>Rich chocolate cake with creamy filling and smooth chocolate topping.</p>
+                    </ul>
+                </div>
+                <div class="items">
+                    <ul>
+                        <li>Vanilla Buttercream Cake</li> <label for="price"><b>$5</b></label>
+                        <div class="image">
+                            <img src="images/vanilla.avif" alt="vanillacake" height="200">
+                        </div>
+                        <p>Soft vanilla cake with butter frosting.</p>
+                    </ul>
+                </div>
+                <div class="items">
+                    <ul>
+                        <li>Red Velvet Cake</li> <label for="price"><b>$6</b></label>
+                        <div class="image">
+                            <img src="images/redvelvet.avif" alt="redvelvetcake">
+                        </div>
+                        <p>Moist red cake with cream cheese frosting.</p>
+                    </ul>
+                </div>
+            </div>
+            <h3>Breads</h3>
+            <div id="breads">
+
+                <div class="items">
+                    <ul>
+                        <li>Multigrain Bread</li><label for="price"><b>$2</b></label>
+                        <div class="image">
+                            <img src="images/multigrsin.avif" alt="multigrainbread">
+                        </div>
+                        <p>Healthy bread made with many grains,great for sandwiches.</p>
+                    </ul>
+                </div>
+                <div class="items">
+                    <ul>
+                        <li>Sourdough Loaf</li><label for="price"><b>$3</b></label>
+                        <div class="image">
+                            <img src="images/sourdought.avif" alt="sourdough">
+                        </div>
+                        <p>Crunchy crust bread with a tangy taste.</p>
+                    </ul>
+                </div>
+                <div class="items">
+                    <ul>
+                        <li>Baguette</li><label for="price"><b>$3</b></label>
+                        <div class="image">
+                            <img src="images/baguette.avif" alt="baguette" height="200">
+                        </div>
+                        <p>Long thin French bread, cruchy on the outside and soft inside.</p>
+                    </ul>
+                </div>
+            </div>
+            <h3>Cookies and Pastries</h3>
+            <div id="pastries">
+
+                <div class="items">
+                    <ul>
+                        <li>Buttery Shortbread Cookies</li><label for="price"><b>$2</b></label>
+                        <div class="image">
+                        <img src="images/shortbreadcookies.avif" alt="shortbread" height="200">
+                        </div>
+                        <p>Crispy cookies made with lots of butter and vanilla.</p>
+                    </ul>
+                </div>
+                <div class="items">
+                    <ul>
+                        <li>Croissanta</li><label for="price"><b>$3</b></label>
+                        <div class="image">
+                        <img src="images/crossiants.avif" alt="crossiants" height="200">
+                        </div>
+                        <p>Flaky, buttery rolls, perfect for breakfast.</p>
+                    </ul>
+                </div>
+                <div class="items">
+                    <ul>
+                        <li>Fruit Danishes</li><label for="price"><b>$2</b></label>
+                        <div class="image">
+                        <img src="images/fruitdanishes1.webp" alt="danishes" height="200">
+                        </div>
+                        <p>Sweet pastry filled with fruit jam.</p>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </main>
+    </div>
 </body>
+
 </html>

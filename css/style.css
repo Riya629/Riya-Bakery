@@ -1,0 +1,283 @@
+/*Home page*/
+body.home {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+    font-family: arial, verdana;
+    background: url(../images/background1.avif);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: rgb(255, 199, 209);
+    background-size:500px;
+    
+}
+
+/*About US page*/
+body.aboutus {
+    margin: 0px;
+    padding: 0px;
+    height:auto;
+    width:auto;
+    font-family: arial, verdana;
+    background: url(../images/aboutback.avif);
+    background-repeat: no-repeat;
+     background-color: rgb(254, 210, 218);
+    background-size:700px;
+    background-position:top right;
+
+}
+
+/*Menu page*/
+body.menu {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+    font-family: arial, verdana;
+  background: linear-gradient(to right, #fde2e4, #fadadd);
+
+}
+
+/*Contact page*/
+body.contact {
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: auto;
+    font-family: arial, verdana;
+    background-color: rgb(254, 210, 218);
+   
+}
+
+/*navbar, logo and search bar*/
+header {
+    padding-top: 100px;
+}
+
+/*navbar background-color*/
+.head {
+    background-color:rgb(0 47 49);
+}
+/*CSS for navbar elements*/
+.navbar li a {
+    text-decoration: none;
+    padding: 5px;
+    margin: 2px;
+    font-size: 15px;
+    color: white;
+
+}
+
+.navbar li {
+    display: inline-block;
+
+}
+
+.navbar li a:hover {
+    color: rgb(188, 142, 81);
+    text-decoration: underline;
+}
+
+.navbar a.active {
+   
+   color: rgb(188, 142, 81);
+    
+}
+/*logo place*/
+.left {
+    position: absolute;
+    width: 200px;
+    top: 20px;
+    text-align: center;
+    left: 2px;
+}
+/*navbar place*/
+.center {
+    position: absolute;
+    left: 30%;
+    top: 25px;
+    width: 650px;
+}
+
+/*search bar place*/
+.right {
+    position: absolute;
+    right: 20px;
+    left: 85%;
+    right: 20px;
+    top: 50px;
+
+}
+
+/*logo image*/
+.left img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+/*Logo name*/
+.logoname {
+    font-family: cursive;
+    font-size: 10px;
+    color:rgb(188, 142, 81);
+}
+
+.indexmainbody {
+    margin: 2px;
+    padding: 2px;
+}
+
+/*.mainimg img {
+    padding: 2px;
+    margin: 2px;
+}*/
+
+/*for index and contact*/
+footer {
+    margin: 2px;
+    padding: 2px;
+}
+
+.aboutpara {
+    width: 50%;
+    justify-content: left;
+    text-align: justify;
+    color: black;
+
+}
+
+.aboutmain {
+    padding: 2px;
+    margin: 2px;
+}
+
+.aboutus h1 {
+    color: rgb(71, 11, 11);
+}
+
+/* CSS for all page images except menu*/
+.image img {
+    height: 200px;
+    margin: 2px;
+    padding: 2px;
+    width:250px;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.image img {
+    box-shadow: 0px 10px 10px 10px rgb(42, 68, 71);
+    border-radius: 40px;
+}
+
+/*Css for Menu page*/
+/*#cakes {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}*/
+
+/*.items img {
+    width: 200px;
+    height: 200px;
+}*/
+/*Menu container*/
+.container {
+    padding: 20px;
+}
+
+/*.items {
+    padding: 10px;
+    margin: 10px;
+}*/
+
+.menu h1 {
+    text-align: center;
+    color: rgb(71, 11, 11);
+}
+
+/*#breads {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+#pastries {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}*/
+/* CSS for Menu items name*/
+.container li {
+    font-size: 20px;
+    color: rgb(188, 142, 81);
+    margin: 2px;
+    padding: 2px;
+}
+
+h3:hover {
+    color: rgb(214, 34, 133);
+}
+
+/*CSS for Contact page*/
+.contact h1 {
+    color: rgb(68, 5, 5);
+}
+
+.contact main {
+    margin: 5px;
+    padding: 5px;
+}
+/*CSS fro contact page form for info*/
+.form2 {
+    width: 25%;
+    background-color: rgb(248, 224, 228);
+    height: 30%;
+    border-radius: 10px;
+}
+
+.fillup input,
+textarea {
+    display: block;
+    margin: 7px;
+    padding: 7px;
+    width: 50%;
+    border: solid white;
+    border-radius: 10px;
+}
+
+input[type=submit] {
+    width: 35%;
+    padding: 5px;
+    margin: 30px;
+    border-radius: 50px;
+    background-color: rgb(42, 68, 71);
+    color:rgb(188, 142, 81);
+}
+/*CSS for mid line goldern line*/
+.midhead{
+    padding:5px;
+    width:auto;
+    height:1px;
+    background-color:rgb(188, 142, 81);
+}
+
+/* CSS for contact page contact info*/
+.info{
+   background-color:rgb(188, 142, 81);
+  border-top-right-radius:20px;
+   border-top-left-radius:20px;
+  width:auto;
+  height:100%;
+  padding:10px;
+  margin:10px;
+  color:white;
+}
+
+.aboutmain img{
+    display:block;
+}
+/* CSS for Responsive page*/

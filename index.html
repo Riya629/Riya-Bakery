@@ -5,43 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riya's Bakery</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <fieldset>
-        <legend>
-            
-            <h2>Welcome to Riya's  Bakery</h2>
-        </legend>
-        <form method="post">
-            <section>
-                <h3>Riya's Bakery</h3>
-            </section>
-            <input type="search" name="search" id="search" placeholder="Search for Cakes,Categories,or Falvors...">
-        </form>
+<body class="home">
+<div class="box">
+    <header class="head">
+        <!--left box for logo-->
+        <div class="left">
+            <img src="images/logo1.avif" alt="logo">
+            <div class="logoname"><b>Riya's Bakery</b></div>
+        </div>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About </a></li>
-                <li> <a href="menu.html">Menu</a></li>
-                <li><a href="contact.html">Contact Us </a></li>
-            </ul>
-        </nav>
-        <p>At's Riya's Bakery, we offer homemade breads, cakes, and cookies using traditional recipes and the best
-            ingredients.Step into our bakery for a warm, cozy atmosphere and enjoy treats baked fresh each morning!</p>
+        <!--mid box for navbar-->
+        <div class="center">
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html" class="active"><b>Home</b></a> </li>
+                    <li><a href="about.html"><b>About</b> </a></li>
+                    <li> <a href="menu.html"><b>Menu</b></a></li>
+                    <li><a href="contact.html"><b>Contact Us</b> </a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--right box for search-->
+        <div class="right">
+            <form>
+                <input type="search" id="search" name="search" placeholder="search bakery items..">
+            </form>
+        </div>
+    </header>
+    <div class="midhead">
 
-        <p>Signature item's include chocolate truffle cake, multigrain bread, and buttery croissants.Every item is baked
-            fresh daily and with 100% natural ingredients.</p>
+    </div>
+    <br>
+    <br>
+    <main class="indexmainbody">
+        <div class="indexpara">
+            <p>At's Riya's Bakery, we offer homemade breads, cakes, and cookies using traditional recipes and the best
+                ingredients.Step into our bakery for <br>a warm, cozy atmosphere and enjoy treats baked fresh each
+                morning!</p>
+
+            <p>Signature item's include chocolate truffle cake, multigrain bread, and buttery croissants.Every item is
+                baked
+                fresh daily and with 100% natural <br>ingredients.</p>
+        </div>
         <h3>Bakery items:</h3>
         <ul>
             <li>Daily Specials</li>
             <li>Organic Ingredients</li>
             <li>Custom Cakes Available</li>
         </ul>
-        <img src="images/bread.webp" alt="bread" height="200">
-        <img src="images/cake.avif" alt="cake" height="200">
-        <img src="images/crossiants.avif" alt="crossiants" height="200">
+        <div class="image">
+            <img src="images/bread.webp" alt="bread">
+            <img src="images/cake.avif" alt="cake">
+            <img src="images/crossiants.avif" alt="crossiants">
+        </div>
+    </main>
+    <footer class="foot">
         <p>Visit at our shop to enjoy the aroma of fresh baking ,or browse our website for our complete menu.</p>
         <p>Open Sun–Sat, 8am–9pm | Bharatpur-12, Munal Chowk, Chitwan</p>
         <p>
@@ -49,7 +70,8 @@
             <br>
             <a href="https://www.kingarthurbaking.com" target="_blank">King Arthur Baking: Supplies</a>
 
-    </fieldset>
+    </footer>
+</div>
 </body>
 
 </html>
